@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+body {
+    background-color: #F5F4F0;
+    color: #1B1B1B;
+}
+
+main {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 88px auto;
+}
+
+p {
+
+    color: #333333;
+    font-size: 16px;
+
+}
+
+.headline {
+    color: #E1624F;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    
+h1 {
+    font-size: 36px;
+    
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+img {
+    border-radius: 28px;
+    margin-bottom: 24px;
+}
+
+.italic {
+    font-style: italic;
+    text-align: center;
+}
+
+.divisor {
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 34px;
+    
+}
+
+h2 {
+    margin-top: 2px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.title-list p {
+    margin-bottom: 64px;
+}
+
+h3 {
+    margin-bottom: 4px;
+}
+
+li {
+    font-size: 28px;
+    list-style-position: inside;
+    font-size: 28px;
+    font-weight: 700;
+}
+.default {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 16px;
+    color:#0C51A7;
+}
+
+.default-color {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 16px;
+    color: #E5245E;
+}
+
+.card-travel p {
+    font-weight: 400;
+}
+
+.img-card {
+    margin-top: 48px;
+}
+
+.description {
+    text-align: center;
+}
