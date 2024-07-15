@@ -76,11 +76,21 @@ h3 {
     margin-bottom: 4px;
 }
 
-li{
+li {
+    list-style: none;
     font-size: 28px;
-    list-style-position: inside;
     font-weight: 700;    
 }
+ul.numbered {
+    counter-reset: mynum;
+  }
+
+h3.numbered:before {
+    content: counter(mynum) ". ";
+    counter-increment: mynum;
+    font-weight: bold;
+  }
+                  
 .color-blue {
     list-style-type: disc;
     list-style-position: inside;
@@ -115,6 +125,8 @@ li{
     text-align: center;
 }
 
-ol li::marker {
+ul li::marker {
     color: #1b1b1b;
 }
+
+
